@@ -9,8 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      <FetchItem />
-      {currentlyFetching ? <LoadingSpinner /> : <Outlet />}
+      <Outlet />
       <Footer />
     </>
   );
